@@ -18,8 +18,8 @@ profiles:
     tagPolicy:
       envTemplate:
         template: "{{.DOCKER_REGISTRY}}/salaboy/s1p-concerts-service:{{.DIGEST_HEX}}"
-    artifacts:
-    - docker: {}
+#    artifacts:
+#    - docker: {}
     local: {}
   deploy:
     helm:
